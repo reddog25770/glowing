@@ -1,0 +1,58 @@
+<html lang="eng-US">
+<head>
+<title>Home Page</title>
+
+<style>
+body {
+        background-image: url("http://zellox.com/wp-content/uploads/2016/02/background-image-html.jpg");
+} 
+ 
+</style>
+
+<script type="text/javascript">
+function dosearch() {
+var sf=document.searchform;
+var submitto = sf.sengines.options[sf.sengines.selectedIndex].value + escape(sf.searchterms.value);
+window.location.href = submitto;
+return false;
+}
+</script>
+
+</head>
+
+<body>
+<h1 style="font-size:250%;text-align:right"> Home Page</h1>
+<!-- HTML for SEARCH BAR -->
+<form name="searchform" onSubmit="return dosearch();">
+Search: 
+<select name="sengines">
+<option value="https://www.bing.com/search?q=" selected>Bing</option>
+<option value="https://www.ecosia.org/search?q=">Ecosia</option>
+<option value="http://www.google.com/search?q=">Google</option>
+<option value="https://en.wikipedia.org/wiki/">Wikipedia</option>
+<option value="http://www.dogpile.com/info.dogpl/search/web/">Dogpile</option>
+<option value="http://search.yahoo.com/search?p=">Yahoo!</option>
+</select>
+For: 
+<input type="text" name="searchterms">
+<input type="submit" name="SearchSubmit" value="Search">
+</form>
+
+<h2 style="font-size:250%;"> Sites</h2>
+<hr>
+<!--pre is for hyper links to common websites-->
+<pre style="font-size:150%;">
+<a href="https://www.facebook.com">Facebook</a>
+<a href="https://www.amazon.com/">Amazon</a>
+<a href="http://www.eightgames.com/escape-game">Eight games</a>
+<a href="http://www.swagbucks.com">SwagBucks</a>
+<a href="http://www.w3schools.com/html/html_attributes.asp"> w3 shools</a>
+<a href="http://www.cnn.com">CNN News</a>
+<a href="http://www.foxnews.com">Fox News</a>
+<a href="http://wnep.com">WNEP News</a>
+
+</pre>
+<hr>
+</body>
+</html>
+
