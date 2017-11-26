@@ -19,7 +19,6 @@ return false;
 </script>
 
 </head>
-
 <body>
 <h1 style="font-size:250%;text-align:right"> Home Page</h1>
 <!-- HTML for SEARCH BAR -->
@@ -40,7 +39,6 @@ For:
 
 <h2 style="font-size:250%;"> Sites</h2>
 <hr>
-<!--pre is for hyper links to common websites-->
 <pre style="font-size:150%;">
 <a href="https://www.facebook.com">Facebook</a>
 <a href="https://www.amazon.com/">Amazon</a>
